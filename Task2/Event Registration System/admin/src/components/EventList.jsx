@@ -68,12 +68,4 @@ function EventList({ events }) {
 
 export default EventList;
 
-// function EventList(){
-// return (
-//   <>
-//   <h1>Event Lists</h1>
-//   </>
-// )
-// };
 
-// export default EventList;
