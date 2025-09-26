@@ -11,7 +11,7 @@ function Home() {
       {user ? (
         <>
           <h1 className="text-3xl font-bold text-teal-500 m-10">
-            Welcome, {user.name || user.email}
+            Welcome, {user.name || user.email} to the Event Management System
           </h1>
         </>
       ) : (
@@ -37,7 +37,7 @@ function Home() {
         >
           <h3 className="text-xl font-semibold text-teal-500">Your Registrations</h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Save and organize your favorite SURAHs.
+            See The Events You are Registered on.
           </p>
         </Link>
         <Link
@@ -48,7 +48,7 @@ function Home() {
             See Events
           </h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Monitor your memorization journey.
+            Find out your Favourite Events and Register.
           </p>
         </Link>
       </div>
