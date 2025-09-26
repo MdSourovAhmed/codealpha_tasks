@@ -30,19 +30,6 @@ function Events() {
     fetchEvents();
   }, []);
 
-  // if (loading)
-  //   return (
-  //     <div className="text-center text-gray-600 dark:text-gray-300">
-  //       Loading...
-  //     </div>
-  //   );
-  // if (!user)
-  //   return (
-  //     <div className="text-center text-gray-600 dark:text-gray-300">
-  //       Please log in to view Events.
-  //     </div>
-  //   );
-
   return (
     <div className="container flex-col mx-auto z-1 p-4 rounded-lg">
       <h2 className="text-2xl font-bold p-4 mb-4">Events</h2>
